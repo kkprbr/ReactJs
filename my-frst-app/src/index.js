@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import Test from "./test"
+import './index.css';
+import Prop from "./props";
 
 
 
@@ -19,4 +21,5 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // }, 1000);
 root.render(
   <Test />
+  // <Prop />
 );
