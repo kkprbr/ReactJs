@@ -2,66 +2,185 @@ import React from "react";
 
 let data = [
     {
-        title: "Heeramandi",
-        imgURL: "https://occ-0-3365-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABVx9XeGF_87h4odP_kFwqC8-piPPbFyxiUQLZzG97sPE_L6_40jVHVjTMpnCSLh5SsVFqmwKZ5buXfiiFgZ--XFugjYGO_r00UPk7cxQtKsb1q_q90sxX31vLgvXAwLFNc-VtgeShro6FRBjIctmxmOD0nzVvWd3sekSdM9hUrThqy-LNLjAMWAYSh5_n5A.jpg?r=66f",
-        description: "This film is streaming on Netflix plotform"
-    
+      "albumId": 1,
+      "id": 1,
+      "title": "accusamus beatae ad facilis cum similique qui sunt",
+      "url": "https://via.placeholder.com/600/92c952",
+      "thumbnailUrl": "https://via.placeholder.com/150/92c952"
     },
     {
-        title:  "Manifest",
-        imgURL: "https://occ-0-3365-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABZrMLnw8WE5hCJsepUt8asAgLAOczm8tGn3WGO3OvnZengYhUh7ZT3tncJ9z00fK6zlch9fBhVMKHQI77cCFiCHmxTQEDwpjuUBNiEzyxgCrRXNDQtECKDbrH5pR5s5oagYG.jpg?r=488",
-        description: "This film is streaming on Netflix plotform"
+      "albumId": 1,
+      "id": 2,
+      "title": "reprehenderit est deserunt velit ipsam",
+      "url": "https://via.placeholder.com/600/771796",
+      "thumbnailUrl": "https://via.placeholder.com/150/771796"
+    },
+    {
+      "albumId": 1,
+      "id": 3,
+      "title": "officia porro iure quia iusto qui ipsa ut modi",
+      "url": "https://via.placeholder.com/600/24f355",
+      "thumbnailUrl": "https://via.placeholder.com/150/24f355"
+    },
+    {
+      "albumId": 1,
+      "id": 4,
+      "title": "culpa odio esse rerum omnis laboriosam voluptate repudiandae",
+      "url": "https://via.placeholder.com/600/d32776",
+      "thumbnailUrl": "https://via.placeholder.com/150/d32776"
+    },
+    {
+      "albumId": 1,
+      "id": 5,
+      "title": "natus nisi omnis corporis facere molestiae rerum in",
+      "url": "https://via.placeholder.com/600/f66b97",
+      "thumbnailUrl": "https://via.placeholder.com/150/f66b97"
+    },
+    {
+      "albumId": 1,
+      "id": 6,
+      "title": "accusamus ea aliquid et amet sequi nemo",
+      "url": "https://via.placeholder.com/600/56a8c2",
+      "thumbnailUrl": "https://via.placeholder.com/150/56a8c2"
+    },
+    {
+      "albumId": 1,
+      "id": 7,
+      "title": "officia delectus consequatur vero aut veniam explicabo molestias",
+      "url": "https://via.placeholder.com/600/b0f7cc",
+      "thumbnailUrl": "https://via.placeholder.com/150/b0f7cc"
+    },
+    {
+      "albumId": 1,
+      "id": 8,
+      "title": "aut porro officiis laborum odit ea laudantium corporis",
+      "url": "https://via.placeholder.com/600/54176f",
+      "thumbnailUrl": "https://via.placeholder.com/150/54176f"
+    },
+    {
+      "albumId": 1,
+      "id": 9,
+      "title": "qui eius qui autem sed",
+      "url": "https://via.placeholder.com/600/51aa97",
+      "thumbnailUrl": "https://via.placeholder.com/150/51aa97"
+    },
+    {
+      "albumId": 1,
+      "id": 10,
+      "title": "beatae et provident et ut vel",
+      "url": "https://via.placeholder.com/600/810b14",
+      "thumbnailUrl": "https://via.placeholder.com/150/810b14"
+    },
+    {
+      "albumId": 1,
+      "id": 11,
+      "title": "nihil at amet non hic quia qui",
+      "url": "https://via.placeholder.com/600/1ee8a4",
+      "thumbnailUrl": "https://via.placeholder.com/150/1ee8a4"
+    },
+    {
+      "albumId": 1,
+      "id": 12,
+      "title": "mollitia soluta ut rerum eos aliquam consequatur perspiciatis maiores",
+      "url": "https://via.placeholder.com/600/66b7d2",
+      "thumbnailUrl": "https://via.placeholder.com/150/66b7d2"
+    },
+    {
+      "albumId": 1,
+      "id": 13,
+      "title": "repudiandae iusto deleniti rerum",
+      "url": "https://via.placeholder.com/600/197d29",
+      "thumbnailUrl": "https://via.placeholder.com/150/197d29"
+    },
+    {
+      "albumId": 1,
+      "id": 14,
+      "title": "est necessitatibus architecto ut laborum",
+      "url": "https://via.placeholder.com/600/61a65",
+      "thumbnailUrl": "https://via.placeholder.com/150/61a65"
+    },
+    {
+      "albumId": 1,
+      "id": 15,
+      "title": "harum dicta similique quis dolore earum ex qui",
+      "url": "https://via.placeholder.com/600/f9cee5",
+      "thumbnailUrl": "https://via.placeholder.com/150/f9cee5"
+    },
+    {
+      "albumId": 1,
+      "id": 16,
+      "title": "iusto sunt nobis quasi veritatis quas expedita voluptatum deserunt",
+      "url": "https://via.placeholder.com/600/fdf73e",
+      "thumbnailUrl": "https://via.placeholder.com/150/fdf73e"
+    },
+    {
+      "albumId": 1,
+      "id": 17,
+      "title": "natus doloribus necessitatibus ipsa",
+      "url": "https://via.placeholder.com/600/9c184f",
+      "thumbnailUrl": "https://via.placeholder.com/150/9c184f"
+    },
+    {
+      "albumId": 1,
+      "id": 18,
+      "title": "laboriosam odit nam necessitatibus et illum dolores reiciendis",
+      "url": "https://via.placeholder.com/600/1fe46f",
+      "thumbnailUrl": "https://via.placeholder.com/150/1fe46f"
+    },
+    {
+      "albumId": 1,
+      "id": 19,
+      "title": "perferendis nesciunt eveniet et optio a",
+      "url": "https://via.placeholder.com/600/56acb2",
+      "thumbnailUrl": "https://via.placeholder.com/150/56acb2"
+    },
+    {
+      "albumId": 1,
+      "id": 20,
+      "title": "assumenda voluptatem laboriosam enim consequatur veniam placeat reiciendis error",
+      "url": "https://via.placeholder.com/600/8985dc",
+      "thumbnailUrl": "https://via.placeholder.com/150/8985dc"
     }
 
-];
+]
 
 const App = () => {
     return (
-        <section>
+        <section className="posts-container" >
             {data.map((eachObj) => {
+                const {title, url, id, thumbnailUrl} = eachObj;
                 return (
-                    <Movie 
-                    title={eachObj.title}
-                    imgURL={eachObj.imgURL}
-                    description={eachObj.description} />
+                    <Profile 
+                    key={id}
+                    id={id}
+                    title={title}
+                    url={url}
+                    thumbnailUrl={thumbnailUrl} />
                 )
             }
         )}
         </section>
     )
 };
-
-
-
-
-
-// let App = () =>{
-//     return (
-//         <section>
-//         <Movie
-//         title = {data[0].title}
-//         imgURL = {data[0].imgURL}
-//         description = {data[0].description}
-//         />
-//         <Movie
-//         title = {data[1].title}
-//         imgURL = {data[1].imgURL}
-//         description = {data[1].description}
-//         />
-        
-//         </section>
-//     );
-// };
-
-let Movie = (props) => {
+const Profile = (props) => {
+    const {title, id, thumbnailUrl, url} = props;
     return (
-        <article className="each-movie">
-          <img src={props.imgURL} />
-          <h1>{props.title}</h1>
-          <p>{props.description}</p>
+    
+        <article className="profile-card">
+            <img src={url} alt="Image" />
+            <h3 className="title">{title}</h3>
+            <a href={thumbnailUrl} 
+            className="button">
+                Details
+            </a>
+            
+            
+           
+            
+
         </article>
-    );
-};
+    )
+}
 
 export default App;
 

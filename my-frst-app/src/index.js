@@ -1,9 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import Test from "./test"
-import './index.css';
-import Prop from "./props";
+
+
 
 
 
@@ -13,13 +12,7 @@ import Prop from "./props";
 
 // ReactDOM.render(<PrintName />, document.getElementById('root'));
 const root = ReactDOM.createRoot(document.getElementById("root"));
+  root.render(
+     <App />
+   );
 
-// setInterval(() => {
-//   root.render(
-//     <App />
-//   );
-// }, 1000);
-root.render(
-  <Test />
-  // <Prop />
-);

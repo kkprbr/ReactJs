@@ -11,42 +11,53 @@ body {
    letter-spacing: 0.5px;
 
 }
-.heading{
-   padding-top: 2px;
-   padding-left: 45px;
-   color: rgb(120, 27, 207);
-}
-.sub-heading{
-   color: rgb(218, 15, 59);
-}
-
-.image-style{
-   border-radius: 10px;
-   box-shadow: 1px;
-   margin-top: 25px;
-   margin-left: 35px;
-   
-}
-.title-style{
-   display: flex;
-   flex-direction: column;
-}
-
-.content-container {
-   background: whitesmoke;
+.posts-container{
    width: 100%;
-   height: 80vh;
-   max-width: 1200px;
-   margin: 3rem auto;
-   list-style: none;
-   border-radius: 5px;
-   
+   height: 100%;
+   max-width: 1000px;
+   margin: 2rem auto;
+}
+.profile-card{
+   height: 100%;
+   width: 100%;
+   box-shadow: 0px 0px 10px 2px rgba(17, 1, 1, 0.466);
+}
+.profile-card img {
+   height: 100%;
+   width: 100%;
+   max-height: 300px;
+}
+.profile-card a {
+   display: inline-block;
+   margin-top: 20px;
+   color: red;
+   font-size: 20px;
+   padding: 10px;
+   border: 2px solid black;
+   cursor: pointer;
+   text-transform: capitalize;
+   letter-spacing: 0.5px;
+   text-decoration: none;
+}
+.profile-card .button{
+   margin-left: 10px;
+   margin-bottom: 5px;
+   font-weight: bold;
+}
+.profile-card .title{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding-bottom: 5px;
+   padding-left: 8px;
 }
 @media screen and (min-width: 992px) {
-   .content-container {
-      
+   .posts-container{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 1rem;
+      gap: 2rem;
    }
+}
+.drink-container{
+   text-align: center;
+   align-items: center;
 }
